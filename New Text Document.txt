@@ -1,0 +1,4 @@
+create table users(
+username varchar(50) PRIMARY KEY,
+password varcahr(100) NOT NULL);
+insert into users(username,password) values ('admin',md5('Pa$$w0rd'));
